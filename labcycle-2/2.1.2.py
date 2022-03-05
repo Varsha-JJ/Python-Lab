@@ -1,5 +1,4 @@
-n = int(input("Enter nth number : "))
-sum = 0
-for s in range(1, n + 1):
-    sum = sum + (s * s)
-print("Sum of squares is : ", sum)
+print("squre of N numbers")
+numbers=[1,2,3,4,5]
+squred_numbers=[number ** 2 for number in numbers]
+print(squred_numbers)

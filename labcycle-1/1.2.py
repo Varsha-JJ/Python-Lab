@@ -1,7 +1,7 @@
-print("Enter three numbers:")
-num1 = input(int())
-num2 = input(int())
-num3 = input(int())
+print("Enter three numbers\n")
+num1 = int(input("Enter first number:"))
+num2 = int(input("Enter secound number:"))
+num3 = int(input("Enter third number:"))
 
 if num1 > num2 and num1 > num3:
     print("largest number is", num1)

@@ -3,8 +3,8 @@ dict1 = {
     "Department": "computer science",
     "course": "mca",
 }
-
 list = list(dict1.items())
 list.sort()
-#list.sort(reverse=True)
-print(list)
+print("Ascending order is",list)
+list.sort(reverse=True)
+print("Descending order is",list)

@@ -1,14 +1,12 @@
-def merge(t1, t2):
-    return (t2.update(t1))
-
-
 t1 = {
     "name": "ammu",
     "age": 22,
 }
-
 t2 = {
     "place": "kottayam"
 }
-print(merge(t1, t2))
-print(t2)
+print("Dictionary 1:",t1)
+print("Dictionary 2:",t2)
+dict = t1.copy()
+dict.update(t2)
+print("After merging two dictionary:",dict)

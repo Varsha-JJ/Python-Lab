@@ -1,13 +1,7 @@
-list = [ ]
-n = int(input("Enter number of elements to be inserted:"))
-for i in range (0,n):
-    elem = int(input("Enter elements to be inserted:"))
-    list.append(elem)
-list.reverse()
-print("After reversing the list will be:")
-print(list)
-
-#subject = ["malayalam", "english", "hindi"]
-#subject.reverse()
-#for y in subject:
- #   print(y)
+print("Four digit number with all their digits even and the number is a perfect square is:")
+for i in range(1000, 10000, 1):
+    for j in range(32, 100, 1):
+        if i == j * j:
+            string = str(i)
+            if int(string[0]) % 2 == 0 and int(string[1]) % 2 == 0 and int(string[2]) % 2 == 0 and int(string[3]) % 2 == 0:
+                print(i)
